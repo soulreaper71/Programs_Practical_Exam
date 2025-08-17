@@ -5,6 +5,45 @@ Created on Sun Aug 17 13:15:33 2025
 @author: soulr
 """
 
+## Program 1
+
+A=[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+for i in range(0, len(A)):
+    A[i]=A[i] + 1
+
+print(A)
+
+## Program 2
+
+A=[1,2,3,4]
+B=[1,1,2,2]
+C=[ ]
+
+print("Original list 1 is :" ,A)
+print("Original list 2 is :" ,B)
+
+for i in range(0,len(A)):
+    C.append(A[i]+B[i])
+
+print("The resultant list is:",C)
+
+## Program 3
+
+numbers = [2,5,7,8,3,6,4,9,10]
+even_sum = 0
+odd_sum = 0
+
+for i in range(len(numbers)):
+    
+    if numbers[i] % 2 == 0:
+        even_sum += numbers[i]
+    else:
+        odd_sum += numbers[i]
+
+print("Sum of even numbers:", even_sum)
+print("Sum of odd numbers:", odd_sum)
+
 ## Program 4
 
 print("Select operation:")
